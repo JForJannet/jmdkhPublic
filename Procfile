@@ -1,2 +1,2 @@
-web: python -m bot $PORT
-worker: python update.py
+web: python update.py
+worker: python -m bot $PORT
